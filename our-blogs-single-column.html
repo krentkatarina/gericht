@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Krent Katarina Sergeevna">
+    <meta name="Copyright" content="Krent Katarina Sergeevna">
+    <link rel="stylesheet" href="styles/nullstyle.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon/favicon-16x16.png">
+    <title>Blog</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class=" container">
+                <a href="index.html" class="header__logo">GERICHT</a>
+                <div class="header__menu">
+                    <div class="header__menu-icon">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu-body">
+                        <ul class="header__menu-list">
+                            <li><a href="index.html" class="header__menu-link">Home</a></li>
+                            <li><a href="team.html" class="header__menu-link">Team</a></li>
+                            <li><a href="contact-us.html" class="header__menu-link">Contact Us</a></li>
+                            <li><a href="our-blogs-single-column.html" class="header__menu-link">Blog</a></li>
+                            <li><a href="our-services.html" class="header__menu-link">Services</a></li>
+                            <li><a href="FAQ.html" class="header__menu-link">FAQ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <!--навигационный блок-->    
+            <section class="navigation">
+                <div class="container">
+                    <h1 class="navigation__title">Our Blogs</h1>
+                    <nav>
+                        <ul class="navigation__list">
+                            <li><a class="navigation__link" href="index.html">Home</a></li>
+                            <li><a class="navigation__link" href="our-blogs-single-column.html">Our Blog</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <!--Article content-->
+            <div class="content">
+                <section class="articles">
+                    <div class="container">
+                        <div class="article">
+                            <img class="article__image" src="images/content/grilling-1.jpg" alt="grill-image">
+                            <div class="article__info">
+                                <p>16 Apr 2021</p>
+                                <p>- Annalisa L</p>
+                            </div>
+                            <h4 class="article__title">tips for prepping and caring for your grill</h4>
+                            <p class="article__text">You will be blown away by the taste of this dish. A new way to cook all kinds of grilled meats...</p>
+                            <a class="article__link" href="tips-for-prepping.html">Read More</a>
+                        </div>
+                        <div class="article">
+                            <img class="article__image" src="images/content/article2.jpg" alt="coctails-image">
+                            <div class="article__info">
+                                <p>23 May 2021</p>
+                                <p>-John Micheal</p>
+                            </div>
+                            <h4 class="article__title">summer cocktails and mocktails</h4>
+                            <p class="article__text">Learn how to cook the most delicious and healthy student snacks for yourself...</p>
+                            <a class="article__link" href="tips-for-prepping.html">Read More</a>
+                        </div>
+                        <a class="articles__link" href="#">View More</a>
+                    </div>
+                </section>
+                <aside class="sidebar">
+                    <div class="container">
+                        <div class="sidebar__search">
+                            <h4 class="sidebar__title">Search Page</h4>
+                            <form >
+                                <fieldset>
+                                    <div class="sidebar__search-form"> 
+                                        <div>
+                                            <input id="search" name="search" placeholder="Example"  type="search">
+                                        </div>
+                                    </div> 
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="sidebar__categories">
+                            <h4 class="sidebar__title">All Categories</h4>
+                            <div class="sidebar__category">
+                                <a class="sidebar__category-name" href="#">Photography</a>
+                                <a href="#">(1)</a> 
+                            </div>
+                            <div class="sidebar__category">
+                                <a class="sidebar__category-name" href="#">Baking</a>
+                                <a href="#">(2)</a> 
+                            </div>
+                            <div class="sidebar__category">
+                                <a class="sidebar__category-name" href="#">Cooking Tips</a>
+                                <a href="#">(6)</a> 
+                            </div>  
+                        </div>
+                        <div class="sidebar__last-post">
+                            <h4 class="sidebar__title">Our Latest Posts</h4>
+                            <div class="sidebar__last-post-image">
+                                <img src="images/content/main-apdates-2.jpg" alt="coctails-image">
+                            </div>
+                            <div class="sidebar__last-post-info">
+                                <p>23 May 2021</p>
+                                <p>-John Micheal</p>
+                            </div>
+                            <h4 class="sidebar__last-post-title">summer cocktails and mocktails</h4>
+                            <div class="sidebar__last-post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit....</div>
+                            <a class="sidebar__last-post-link" href="#">Read More</a>
+                        </div>
+                        <div class="sidebar__tags">
+                            <h4 class="sidebar__title">Related Tags</h4>
+                            <a class="sidebar__tag" href="#">Grilling</a>
+                            <a class="sidebar__tag" href="#">Cooking</a>
+                            <a class="sidebar__tag" href="#">Baking</a>
+                            <a class="sidebar__tag" href="#">Cuisines</a>
+                            <a class="sidebar__tag" href="#">Chef</a>
+                            <a class="sidebar__tag" href="#">Alcohol Mixing</a>
+                        </div>
+                        <div class="sidebar__share">
+                            <h4 class="sidebar__title">Share</h4>
+                            <ul class="sidebar__share-icons">
+                                <li><a href="https://ru-ru.facebook.com/"><i class="icon-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="icon-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="icon-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        <!--Поле ввода почты-->
+        <section class="newsletter">
+            <div class="container">
+                <h5 class="newsletter__subtitle">Newsletter</h5>
+                <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                <h2 class="newsletter__title">Subscribe to Our Newsletter</h2>
+                <p class="newsletter__text">And never miss latest Updates!</p>
+                <form class="newsletter__form">
+                    <input id="email" name="email" placeholder="Email Address" type="email">
+                    <button class="newsletter__button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        </main>
+        <!--Подвал страницы-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__contact">
+                        <h4 class="footer__title">Contact Us</h4>
+                        <p class="footer__text">9 W 53rd St, New York, NY 10019, USA</p>
+                        <a class="footer__phone" href="tel:+12123441230">+1 212-344-1230</a>
+                        <a class="footer__phone" href="tel:+12125551230"> +1 212-555-1230</a>
+                    </div>
+                    <div class="footer__center">
+                        <div class="footer__center-logo">GERICHT</div>
+                        <p class="footer__center-text">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                        <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                        <ul class="footer__center-icons">
+                            <li><a class="footer__center-icon" target="_blank" href="https://ru-ru.facebook.com/"><i class="icon-facebook"></i></a></li>
+                            <li><a class="footer__center-icon" target="_blank" href="https://twitter.com/"><i class="icon-twitter"></i></a></li>
+                            <li><a class="footer__center-icon" target="_blank" href="https://www.instagram.com/"><i class="icon-instagram"></i></a></li>
+                        </ul>
+                        <address class="footer__address">2023 Gericht. All Rights reserved.</address>
+                    </div>
+                    <div class="footer__hours">
+                        <h4 class="footer__title">Working Hours</h4>
+                        <p class="footer__text-hours">Monday-Friday: <br> 08:00 am -12:00 am</p>
+                        <p class="footer__text-hours">Saturday-Sunday: <br>07:00am -11:00 pm</p>
+                    </div>
+                </div>
+            </div>   
+        </footer>
+    </div>
+<!--Подключение файла скриптов-->
+<script src="scripts/script.js"></script>
+</body>
+</html>

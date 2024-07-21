@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Author" content="Krent Katarina Sergeevna">
+    <meta name="Copyright" content="Krent Katarina Sergeevna"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/nullstyle.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon/favicon-16x16.png">
+    <title>Gericht</title>
+</head>
+<body>
+    <div class="wrapper">
+    <!--Header-->
+        <header class="header">
+            <div class=" container">
+                <a href="index.html" class="header__logo">GERICHT</a>
+                <div class="header__menu">
+                    <div class="header__menu-icon">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu-body">
+                        <ul class="header__menu-list">
+                            <li><a href="index.html" class="header__menu-link">Home</a></li>
+                            <li><a href="team.html" class="header__menu-link">Team</a></li>
+                            <li><a href="contact-us.html" class="header__menu-link">Contact Us</a></li>
+                            <li><a href="our-blogs-single-column.html" class="header__menu-link">Blog</a></li>
+                            <li><a href="our-services.html" class="header__menu-link">Services</a></li>
+                            <li><a href="FAQ.html" class="header__menu-link">FAQ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <!--Главный раздел-->
+            <section class="gericht">
+                <div class="container">
+                    <div class="gericht__left">
+                        <h5 class="gericht__subtitle">Chase the new Flavour</h5>
+                        <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                        <h1 class="gericht__title">The key to Fine dining</h1>
+                        <p class="gericht__text">At the restaurant gericht you can taste dishes that are not available in other restaurants. Our team will do everything to make your evening unforgettable.</p>
+                        <a class="gericht__link" href="#menu">Explore Menu</a>
+                    </div>
+                    <div class="gericht__right">  
+                        <div class="image-slider swiper-container">
+                            <div class="image-slider__wrapper swiper-wrapper">
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="images/slider-1.jpg" alt="food-image">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="images/slider-2.jpg" alt="food-image">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="images/slider-3.jpg" alt="food-image">
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Блок о нас-->
+            <section class="about">
+                <div class="container">
+                    <div class="about__left">
+                        <h2  class="about__title">About Us</h2>
+                        <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                        <p class="about__text">Find out more about our restaurant and our menu. We will be glad to see you for the first time. Every guest is very important to us.</p>
+                        <a class="about__link" href="about-us.html">Know More</a>
+                    </div>
+                    <div class="about__image">
+                        <img class="about__image" src="images/main-knife.png" alt="background-image">
+                    </div>
+                    <div class="about__right">
+                        <h2 class="about__title">Our History</h2>
+                        <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                        <p class="about__text">Learn more about our history. With glazed frontage on two sides of the building, overlooking the market and a bustling intersection.</p>
+                        <a class="about__link" href="about-us.html#history">Know More</a>
+                    </div>
+                </div>
+            </section>
+            <!--Video-->
+            <div class="video">
+                <div class="container">
+                    <video muted autoplay loop preload="auto"  src="video/promo-video.mp4"></video>
+                </div>
+            </div>
+            <!--Блок меню-->
+            <div class="menu" id="menu">
+                <div class="container">
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="#barmenu">Bar menu</a></li>
+                        <li><a class="menu__link" href="#barmenu">Food menu</a></li>
+                        <li><a class="menu__link" href="#barmenu">Deserts menu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Menu coctails-->
+            <section class="bar">
+                <div class="container">
+                    <h5 class="bar__subtitle"><a id="barmenu">Menu that fits you palatte</a></h5>
+                    <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                    <h2 class="bar__title">Today’s Special</h2>
+                    <div class="bar__content">
+                        <div class="bar__content-left">
+                            <h3 class="bar__content-title">Wine & Beer</h3>
+                            <div class="bar__content-cards">
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">Chapel Hill Shiraz</h5>
+                                        <div class="bar__card-price">$56</div>
+                                    </div>
+                                    <div class="bar__card-text">AU | Bottle</div>
+                                </div>
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">Catena Malbec</h5>
+                                        <div class="bar__card-price">$59</div>
+                                    </div>
+                                    <div class="bar__card-text">AR | Bottle</div>
+                                </div>
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">La Vieille Rosé</h5>
+                                        <div class="bar__card-price">$44</div>
+                                    </div>
+                                    <div class="bar__card-text">FR | 750 ml</div>
+                                </div>
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">Rhino Pale Ale</h5>
+                                        <div class="bar__card-price">$31</div>
+                                    </div>
+                                    <div class="bar__card-text">CA | 750 ml</div>
+                                </div>
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">Irish Guinness</h5>
+                                        <div class="bar__card-price">$26</div>
+                                    </div>
+                                    <div class="bar__card-text">IE | 750 ml</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bar__content-center">
+                            <img src="images/main-today's-special.png" alt="bar-image">
+                        </div>
+                        <div class="bar__content-right">
+                            <h3 class="bar__content-title">Cocktails</h3>
+                            <div class="bar__content-cards">
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">Aperol Spritz</h5>
+                                        <div class="bar__card-price">$20</div>
+                                    </div>
+                                    <div class="bar__card-text">Aperol | Villa Marchesi prosecco | soda | 30ml</div>
+                                </div>
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">Dark 'N' Stormy</h5>
+                                        <div class="bar__card-price">$16</div>
+                                    </div>
+                                    <div class="bar__card-text">Dark rum | Ginger beer | Slice of lime. </div>
+                                </div>
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">Daiquiri</h5>
+                                        <div class="bar__card-price">$10</div>
+                                    </div>
+                                    <div class="bar__card-text">Rum | Citrus juice | Sugar</div>
+                                </div>
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">Old Fashioned</h5>
+                                        <div class="bar__card-price">$31</div>
+                                    </div>
+                                    <div class="bar__card-text">Bourbon | Brown sugar | Angostura Bitters</div>
+                                </div>
+                                <div class="bar__card">
+                                    <div class="bar__card-info">
+                                        <h5 class="bar__card-title">Negroni</h5>
+                                        <div class="bar__card-price">$26</div>
+                                    </div>
+                                    <div class="bar__card-text">Gin | Sweet Vermouth | Campari | Orange garnish</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="bar__link" href="on-the-rocks.html">View More</a>
+                </div>
+            </section>
+            <!--Блок с главным словом шефа-->
+            <section class="chef-word">
+                <div class="container">
+                    <div class="chef-word__left">
+                        <div class="chef-word__left-image">
+                            <img class="chef-word__image" src="images/content/kevin-luo.jpg" alt="kevin-luo-image">
+                        </div>
+                    </div>
+                    <div class="chef-word__right">
+                        <h5 class="chef-word__subtitle">Chef’s Word</h5>
+                        <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                        <h2 class="chef-word__title">What we believe in</h2>
+                        <p class="chef-word__text">Anyone can make you enjoy the first bite of a dish, but only a true chef can make you enjoy the last. A good restaurant is distinguished not by the few mistakes it makes, but by how well it handles those mistakes.</p>
+                        <h4 class="chef-word__name">Kevin Luo</h4>
+                        <p class="chef-word__function">Chef & Founder</p>
+                        <p class="chef-word__sign">Kevin Luo</p>
+                    </div>
+                </div>
+            </section>
+            <!--Блок с обратной связью-->
+             <section class="feedback">
+                <div class="container">
+                    <h5 class="feedback__subtitle">Testimony</h5>
+                    <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                    <h2 class="feedback__title">Happy customers</h2>
+                    <div class="feedback__cards">
+                        <div class="feedback__card">
+                            <div class="feedback__card-left">
+                                <img src="images/content/wade-warren.jpg" alt="wade-warren-image">
+                            </div>
+                            <div class="feedback__card-right">
+                                <p class="feedback__card-text">Great place, amazing design, flowers on the summer verandas. Dishes are beautifully presented and delicious. With drinks also, there are no problems.</p>
+                                <h4 class="feedback__card-name">Wade Warren</h4>
+                                <div class="feedback__card-post">Sommelier</div>
+                            </div>
+                        </div>
+                        <div class="feedback__card">
+                            <div class="feedback__card-left">
+                                <img src="images/content/kane-cooper.jpg" alt="jane-cooper-image">
+                            </div>
+                            <div class="feedback__card-right">
+                                <p class="feedback__card-text">Quality food, courteous staff. And there are places overlooking the river. Tasty food. The choice of dishes is large, from Georgian to European and Asian.</p>
+                                <h4 class="feedback__card-name">Jane Cooper</h4>
+                                <div class="feedback__card-post">Chef</div>
+                            </div>
+                        </div>
+                        <div class="feedback__card">
+                            <div class="feedback__card-left">
+                                <img src="images/content/robert-fox.jpg" alt="robert-fox-image">
+                            </div>
+                            <div class="feedback__card-right">
+                                <p class="feedback__card-text"> The atmosphere is just super, there are a lot of waiters and they work quickly and with a smile, many thanks to the chefs, as well as the owners of this  place.</p>
+                                <h4 class="feedback__card-name">Robert Fox</h4>
+                                <div class="feedback__card-post">Chef</div>
+                            </div>
+                        </div>
+                        <div class="feedback__card">
+                            <div class="feedback__card-left">
+                                <img src="images/content/brooklyn-simmons.jpg" alt="brooklyn-simmins-image">
+                            </div>
+                            <div class="feedback__card-right">
+                                <p class="feedback__card-text">Celebrated my birthday here last year. I liked everything very much: the food is excellent, the courteous staff who congratulated me with a cake. </p>
+                                <h4 class="feedback__card-name">Brooklyn Simmons</h4>
+                                <div class="feedback__card-post">Caterer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--Our Laurels-->
+            <section class="laurels">
+                <div class="container">
+                    <div class="laurels__left">
+                        <h5 class="laurels__subtitle">Awards & recognition</h5>
+                        <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                        <h2 class="laurels__title">Our Laurels</h2>
+                        <div class="laurels__cards">
+                            <div class="laurels__card">
+                                <div class="laurels__card-left">
+                                    <img src="images/icons/laurels-2.svg" alt="laurels-image">
+                                </div>
+                                <div class="laurels__card-right">
+                                    <h5 class="laurels__card-title">Bib Gourmond</h5>
+                                    <p class="laurels__card-text">Our dishes have an incredibly refined taste.</p>
+                                </div>
+                            </div>
+                            <div class="laurels__card">
+                                <div class="laurels__card-left">
+                                    <img src="images/icons/laurels-1.svg" alt="laurels-image">
+                                </div>
+                                <div class="laurels__card-right">
+                                    <h5 class="laurels__card-title">Rising Star</h5>
+                                    <p class="laurels__card-text">We have chefs known all over the world.</p>
+                                </div>
+                            </div>
+                            <div class="laurels__card">
+                                <div class="laurels__card-left">
+                                    <img src="images/icons/laurels-5.svg" alt="laurels-image">
+                                </div>
+                                <div class="laurels__card-right">
+                                    <h5 class="laurels__card-title">AA Hospitality </h5>
+                                    <p class="laurels__card-text">We are glad to each of our guests.</p>
+                                </div>
+                            </div>
+                            <div class="laurels__card">
+                                <div class="laurels__card-left">
+                                    <img src="images/icons/laurels-3.svg" alt="laurels-image">
+                                </div>
+                                <div class="laurels__card-right">
+                                    <h5 class="laurels__card-title">Outstanding Chef</h5>
+                                    <p class="laurels__card-text">We have the best Italian chefs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="laurels__right">
+                        <img class="laurels__right-image" src="images/main-laurels-image.png" alt="laurels-image">
+                    </div>
+                </div>
+            </section>
+            <!--Updates-->
+            <section class="blogs">
+                <div class="container">
+                    <h5 class="blogs__subtitle">Blogs</h5>
+                    <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                    <h2 class="blogs__title">Gericht updates</h2>
+                    <div class="blogs__cards">
+                        <div class="blogs__card">
+                            <a class="blogs__link-image" href="tips-for-prepping.html"><img class="blogs__image" src="images/content/main-updates-1.jpg" alt="article-image"></a>
+                            <div class="blogs__info">
+                                <div class="blogs__date">16 Apr 2023</div>
+                                <div class="blogs__author">- Annalisa L</div>
+                            </div>
+                            <h4 class="blogs__card-title"><a class="blogs__card-link" href="tips-for-prepping.html">tips for prepping and caring for your grill</a></h4>
+                            <p class="blogs__text">You will be blown away by the taste of this dish. A new way to cook all kinds of grilled meats.</p>
+                            <a class="blogs__card-link" href="tips-for-prepping.html">Read More</a>
+                        </div>
+                        <div class="blogs__card">
+                            <a class="blogs__link-image" href="tips-for-prepping.html"><img class="blogs__image" src="images/content/main-apdates-2.jpg" alt="article-imag"></a>
+                            <div class="blogs__info">
+                                <div class="blogs__date">23 May 2022</div>
+                                <div class="blogs__author">-John Micheal</div>
+                            </div>
+                            <h4 class="blogs__card-title"><a class="blogs__card-link" href="tips-for-prepping.html">summer cocktails and mocktails</a></h4>
+                            <p class="blogs__text">Learn how to cook the most delicious and healthy student snacks for yourself.</p>
+                            <a class="blogs__card-link" href="tips-for-prepping.html">Read More</a>
+                        </div>
+                        <div class="blogs__card">
+                            <a class="blogs__link-image" href="tips-for-prepping.html"><img class="blogs__image" src="images/content/main-updates-3.jpg" alt="article-imag"></a>
+                            <div class="blogs__info">
+                                <div class="blogs__date">06 Aug 2022</div>
+                                <div class="blogs__author">-Fred W</div>
+                            </div>
+                            <h4 class="blogs__card-title"><a class="blogs__card-link"  href="tips-for-prepping.html">easy cooking for college students</a></h4>
+                            <p class="blogs__text">Learn how to cook the most delicious and healthy student snacks for yourself.</p>
+                            <a class="blogs__card-link" href="tips-for-prepping.html">Read More</a>
+                        </div>
+                    </div>
+                    <a class="blogs__link" href="our-blogs-single-column.html">View More</a>
+                </div>
+            </section>
+            <!--Gallery-->
+            <section class="gallery">
+                <div class="container">
+                        <h5 class="gallery__subtitle">Instagram</h5>
+                        <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                        <h2 class="gallery__title">Photo Gallery</h2>
+                        <p class="gallery__text">Check out our dishes and choose the one that hooked you the most.</p>
+                        <div class="gallery__cards">
+                            <div class="gallery__card"></div>
+                            <div class="gallery__card"></div>
+                            <div class="gallery__card"></div>
+                            <div class="gallery__card"></div>
+                            <div class="gallery__card"></div>
+                        </div>
+                    <div class="gallery__small">
+                        <div class="gallery__small-card">
+                            <a href="https://www.instagram.com/"><img class="gallery__small-image" src="images/main-gallery-1.jpg" alt="gallery-image"></a>
+                            <div class="gallery__small-overlay"><a class="gallery__overlay-link" href="https://www.instagram.com/"><i class="icon-instagram"></i></a></div>
+                        </div>
+                        <div class="gallery__small-card">
+                            <a href="https://www.instagram.com/"><img class="gallery__small-image" src="images/main-gallery-2.jpg" alt="gallery-image"></a>
+                            <div class="gallery__small-overlay"><a class="gallery__overlay-link" href="https://www.instagram.com/"><i class="icon-instagram"></i></a></div>
+                        </div>
+                        <div class="gallery__small-card">
+                            <a href="https://www.instagram.com/"><img class="gallery__small-image" src="images/main-gallery-3.jpg" alt="gallery-image"></a>
+                            <div class="gallery__small-overlay"><a class="gallery__overlay-link" href="https://www.instagram.com/"><i class="icon-instagram"></i></a></div>
+                        </div>
+                    </div>
+                    <a class="gallery__link" href="https://www.instagram.com/">View More</a>
+                </div>
+            </section>
+            <!--Поле ввода почты-->
+            <section class="newsletter">
+                <div class="container">
+                    <h5 class="newsletter__subtitle">Newsletter</h5>
+                    <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                    <h2 class="newsletter__title">Subscribe to Our Newsletter</h2>
+                    <p class="newsletter__text">And never miss latest Updates!</p>
+                    <form  class="newsletter__form">
+                        <input id="email" name="email" placeholder="Email Address" type="email">
+                        <button class="newsletter__button">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!--Подвал страницы-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__contact">
+                        <h4 class="footer__title">Contact Us</h4>
+                        <p class="footer__text">9 W 53rd St, New York, NY 10019, USA</p>
+                        <a class="footer__phone" href="tel:+12123441230">+1 212-344-1230</a>
+                        <a class="footer__phone" href="tel:+12125551230"> +1 212-555-1230</a>
+                    </div>
+                    <div class="footer__center">
+                        <div class="footer__center-logo">GERICHT</div>
+                        <p class="footer__center-text">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                        <img class="spoon-image" src="images/icons/spoon.svg" alt="spoon-image">
+                        <ul class="footer__center-icons">
+                            <li><a class="footer__center-icon" target="_blank" href="https://ru-ru.facebook.com/"><i class="icon-facebook"></i></a></li>
+                            <li><a class="footer__center-icon" target="_blank" href="https://twitter.com/"><i class="icon-twitter"></i></a></li>
+                            <li><a class="footer__center-icon" target="_blank" href="https://www.instagram.com/"><i class="icon-instagram"></i></a></li>
+                        </ul>
+                        <address class="footer__address">2023 Gericht. All Rights reserved.</address>
+                    </div>
+                    <div class="footer__hours">
+                        <h4 class="footer__title">Working Hours</h4>
+                        <p class="footer__text-hours">Monday-Friday: <br> 08:00 am -12:00 am</p>
+                        <p class="footer__text-hours">Saturday-Sunday: <br>07:00am -11:00 pm</p>
+                    </div>
+                </div>
+            </div>   
+        </footer>
+    </div>
+<!--Подключение файлов скриптов-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/swiper.js"></script>
+</body>
+</html>
